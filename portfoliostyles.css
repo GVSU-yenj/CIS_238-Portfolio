@@ -15,6 +15,11 @@ nav li{
 	float: left;
 }
 
+.myname{
+	font-family: Futura, Calibri, sans-serif;
+	font-size: 2em;
+}
+
 /*IDs*/
 #outerwrapper{
 	width: 70%;
@@ -23,4 +28,8 @@ nav li{
 
 #main{
 	clear: both;
+	background-color: #ADD8E6;
+	padding: 3%;
+	border: 2px black solid;
+	border-radius: 25px;
 }
