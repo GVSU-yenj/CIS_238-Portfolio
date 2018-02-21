@@ -1,15 +1,18 @@
 /*Made by your boy Jon Yen - 2/10/2018*/
-
+@import url('https://fonts.googleapis.com/css?family=Merriweather'); 
 /*General HTML elements*/
 img{
-	margin-right: 3%;
-	margin-bottom: 2%;
-	/*max-width: 100%;
-	width: 350px; - copy these into OG code then delete.*/
+	max-width: 100%;
+	height: auto;
+	width: 350px;
 }
 
 nav li{
 	list-style-type: none;
+}
+
+footer{
+	text-align: center;
 }
 
 /*classes*/
@@ -18,13 +21,37 @@ nav li{
 }
 
 .myname{
-	font-family: Futura, Calibri, sans-serif;
-	font-size: 2em;
+	/*font-family: Futura, Calibri, sans-serif;
+	font-size: 2em; */
+    font-family: 'Merriweather', serif;
+    font-size: 220%;
+
+}
+
+.italics{
+	font-style: italic;
+}
+
+/*Used on Education (How'd J-money get smart) page, line 24-26
+Contact (da boi), line 48-50 & 30-32*/
+.mobile{
+	display: block;
+}
+
+/*Used on contact (Da boi), line 34-41 & 45-47*/
+.tablet{
+	display: none;
+}
+
+/*Used on Education (How'd J-money get smart) page, line 28-30
+contact (da boi) line 26-28*/
+.desktop{
+	display: none;
 }
 
 /*IDs*/
 #outerwrapper{
-	width: 70%;
+	width: 100%;
 	margin: 0 auto 0 auto;
 }
 
@@ -32,6 +59,6 @@ nav li{
 	clear: both;
 	background-color: #ADD8E6;
 	padding: 3%;
-	border: 2px black solid;
-	border-radius: 25px;
+	border: 0.5em black solid;
+	border-radius: 10px;
 }
