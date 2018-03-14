@@ -1,2 +1,6 @@
 /*Jon Yen CIS 238 Midterm Review, J-mon@¥ homie-dawg, GG no re, you know how I do*/
-@media only (min-width: 660px)
+/*http://ckautz.org/gvsu/cis238new/midterm-study-guide.pdf*/
+
+/*Desktop viewport*/
+@media only screen and (min-width: 660px){
+}
