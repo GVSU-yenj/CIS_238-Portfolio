@@ -1,5 +1,5 @@
 <!doctype html>
-<!--Jon Yen; the contact info section o' my CIS 238 portfolio-->
+<!--Jon Yen; 2/25/2018 the contact info section o' my CIS 238 portfolio-->
 <html lang="en">
 
 <head>
@@ -9,7 +9,12 @@
 	<meta name ="viewport" content="width-device-width, initial-scale-1"> 
 	<link rel="icon" type="image/ico" href="favicon.ico">
 </head>
-
+<header>
+<p class="myname">Jon Yen</p>
+	
+	<figure><img class="float-left" src="images/portrait@2x.png" alt="Portrait of wanna-be Jon Yen">
+	</figure><br>
+</header>
 <nav>
 	<!--If there is emoji support, the thinking guy is totally going in the education section.-->
 		<ul>
@@ -31,13 +36,40 @@
 	<p> Thank you for wanting to contact me. I will always try to reply promptly.
 </div>
 
-		<h2>Email</h2>
+	<form method="post" action="feedback.php"><!--start form-->
+            <label for="fName">First & Last Name:</label>
+            <input type="text" id="fName" name="fName" required>
+            <label for="sName">Street Name (u don't got one, u dunno me):</label>
+            <input type="text" id="sName" name="sName" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone">
+            
+            <p>I wanna know...</p>
+            <ul>
+                 <li><input type="checkbox" name="yrself" id="yrself" value="yrself" class="chkbx">More bout chu, maybe get some danishes</li>
+                 <li><input type="checkbox" name="hostile" id="hostile" value="hostile" class="chkbx"> WHERE U FROM, WHERE YR GRANDMA STAY, WHERE YOUR DADDY STAY, ...[OTHER KENDRICK LYRICS]</li>
+                 <li><input type="checkbox" name="answer" id="answer" value="answer" class="chkbx">da answer to dis question</li>
+            </ul>
+            <label for="reference">Is u a homie?</label>
+            
+            <select name="reference" id="reference">
+                <option value="acquaintance">eh, ik who u is& v.versa</option>
+                <option value="new-phone">New phone, dis me!</option>
+                <option value="ride-or-die">yea, ride n' die!!11!</option>
+                <option value="prob-fake">fb-homie 4 lyfe!</option>
+                <option value="no-one">who dis?</option>
+            </select>   
+            
+            <label for="da-message">Say whatchu gotta here</label>
+            <textarea id="da-message" name="da-message" placeholder="Whatchu gotta say, g? Better b nice, or I'mma call a few friends... and do some of my own work... like callin' yo momma on ya" rows="5" cols="28"></textarea>
+            <input type="submit" id="submit" value="SHOUT OUT @ YO BOI" class="btn">
+            <input type="reset" id="reset" value="aww **** I messed up, homie! Redo?" class="btn">
+            
+        </form>
 		
-		<p>I am usually responsive to e-mail, unless at a meeting or other gathering where phones are frowned upon. I also do not usually turn on network data, so I may simply not be by wi-fi. Otherwise, if it is also not the weekend, it is very likely that I can reply back within the hour.</p>
-		
-		<a href="mailto:yenjj21@sike.boiii">yenj@sike.boiii</a><br>
-		
-<div class="tablet">
+<div class="desktop">
 		<h2>Fax</h2>
 		
 		<p> Yeah, I know... I'm surprised I have a fax machine too, but it was insisted by every business prof I ever had, so here I am. Also the fact that every printer just kinda comes with one means I've had one without having known it for 3 years, so that was nice! Probably not gonna be too responsive to this method of contact because... it's 2020? Uhh? </p>
